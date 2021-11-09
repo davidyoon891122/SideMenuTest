@@ -13,6 +13,7 @@
 		ADFB50B2273A1C2C00D854E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADFB50B0273A1C2C00D854E3 /* Main.storyboard */; };
 		ADFB50B4273A1C2D00D854E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADFB50B3273A1C2D00D854E3 /* Assets.xcassets */; };
 		ADFB50B7273A1C2D00D854E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADFB50B5273A1C2D00D854E3 /* LaunchScreen.storyboard */; };
+		ADFB50BF273A1C7500D854E3 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFB50BE273A1C7500D854E3 /* SideMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ADFB50B3273A1C2D00D854E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADFB50B6273A1C2D00D854E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADFB50B8273A1C2D00D854E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFB50BE273A1C7500D854E3 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				ADFB50B3273A1C2D00D854E3 /* Assets.xcassets */,
 				ADFB50B5273A1C2D00D854E3 /* LaunchScreen.storyboard */,
 				ADFB50B8273A1C2D00D854E3 /* Info.plist */,
+				ADFB50BE273A1C7500D854E3 /* SideMenuViewController.swift */,
 			);
 			path = SideMenuTest;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADFB50BF273A1C7500D854E3 /* SideMenuViewController.swift in Sources */,
 				ADFB50AF273A1C2C00D854E3 /* ViewController.swift in Sources */,
 				ADFB50AB273A1C2C00D854E3 /* AppDelegate.swift in Sources */,
 				ADFB50AD273A1C2C00D854E3 /* SceneDelegate.swift in Sources */,
