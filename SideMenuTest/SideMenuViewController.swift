@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SideMenuViewController: UIViewController {
+class SideMenuViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
