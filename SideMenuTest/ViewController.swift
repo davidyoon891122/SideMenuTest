@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     private let testButton: UIButton = {
         let button = UIButton()
         button.setTitle("TEST", for: .normal)
+        button.addTarget(self, action: #selector(callSideMenu), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor = .red
         return button
     }()
     
@@ -23,8 +25,6 @@ class ViewController: UIViewController {
         addSubviews()
         setLayoutConstrains()
     }
-
-
     
     private func addSubviews() {
         view.addSubview(testButton)
@@ -33,6 +33,12 @@ class ViewController: UIViewController {
     private func setLayoutConstrains() {
         testButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         testButton.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+    }
+    
+    
+    @objc private func callSideMenu() {
+        sideMenuViewControll = SideMenuViewController()
+        present(sideMenuViewControll, animated: true, completion: nil)
     }
 }
 
